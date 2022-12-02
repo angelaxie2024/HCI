@@ -1,0 +1,262 @@
+a { color: inherit; } 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+nav.top-nav{
+    background-color: rgb(250, 199, 219);
+    /*position: fixed; this is for a fixed nav bar*/
+    top: 0px;
+    right: 0px;
+    left:0px;
+    padding: 10px;
+    /*box-shadow: 0px 4px 4px #444;*/
+    color: #000;
+    font-family: Didot, serif;
+    text-align: center;
+}
+
+nav.top-nav h1{
+    font-size: 44px;
+    padding-left: 40px;
+    font-style: italic;
+}
+
+main{
+    margin-top: 100px;
+    margin-left: 2em;
+}
+
+nav.top-nav li{
+    display: inline-block;
+    margin: 5px;
+    user-select: none;
+    font-family: Didot, serif;
+    font-weight: bold;
+}
+
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+
+nav.top-nav ul{
+    list-style:none;
+}
+
+nav.top-nav .pull-down-menu{
+    display:none;
+    position:absolute;
+    background-color: white;
+}
+
+nav.top-nav .pull-down-menu li{
+    display:block;
+}
+
+nav.top-nav li:hover .pull-down-menu{
+    display:block;
+}
+
+.About {
+    margin-left: -32px;
+    margin-top: -100px;
+    background-color: rgb(238, 214, 243);
+    padding: 20pt;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-family: Didot, serif;
+}
+
+.About .desc{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Didot, serif;   
+}
+
+.About h1{
+    text-align: center;
+}
+
+.About img{
+    height: auto;
+    max-width: 10em;
+    margin-left: 40px;
+    float:left;
+	align-content: left;
+	text-align: left;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.Proj {
+    margin-left: -32px;
+    margin-top: -22px;
+    font-family: Didot, serif;
+    padding: 20pt;
+    padding-left: 40px;
+    background-color: rgb(247, 199, 199);
+}
+
+.Proj h1 {
+    text-align: Left;
+}
+
+.Res {
+    margin-left: -32px;
+    margin-top: -22px;
+    background-color: rgb(255, 208, 255);
+    font-family: Didot, serif;
+    padding-left: 40px;
+    padding: 20pt;
+}
+
+.Contact {
+    margin-left: -32px;
+    margin-top: -22px;
+    background-color: rgb(212, 242, 250);
+    font-family: Didot, serif;
+    padding-left: 40px;
+    padding: 20pt;
+}
+
+.dance img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.project1 {
+    text-align: center;
+    background-color:rgb(247, 199, 199);
+    font-family: Didot, serif;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.Proj #proj1:hover {
+    color: rgb(226, 42, 42);
+}
+
+.dance .button {
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid rgba(63, 68, 73, 0.15);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Didot, serif;
+  font-size: 16px;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.dance .button:hover {
+  background-color: #ff8181;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.project1 p{
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.head-bar{
+    text-align: left;
+    margin-left: 330px;
+}
+
+.back-button {
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance: button;
+	text-decoration: none;
+	border:white 1px solid;
+	background-color: rgb(223, 223, 223);
+	margin: 7.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 2.5px;
+    appearance: none;
+}
+
+.back-button:hover {
+    background-color: #ff8181;
+  }
+
+.Proj{
+    padding-bottom: 60px;
+}
+
+.Proj h1{
+    text-align: center;
+}
+
+.Proj .desc1{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Didot, serif;
+    margin-bottom: 40px;
+      
+}
+
+.Proj img{
+    height: auto;
+    max-width: 25em;
+    margin-left: 40px;
+    float:right;
+	align-content: right;
+	text-align: right;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.Proj .desc2{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Didot, serif;
+    margin-bottom: 40px;
+      
+}
+
+.Proj .proj2img{
+    height: auto;
+    max-width: 25em;
+    margin-left: 40px;
+    float:left;
+	align-content: left;
+	text-align: left;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.Res{
+    text-align: center;
+}
+
+.Res img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Contact{
+    text-align: center;
+}
+
+.Contact p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
